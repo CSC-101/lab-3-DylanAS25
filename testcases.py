@@ -15,3 +15,6 @@ class Lab3TestCases(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+#having only test_double_one would not mean the code was right because it passes by accident since
+# 2+2 = 4 and 2*2 = 4
